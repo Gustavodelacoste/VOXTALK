@@ -1,0 +1,18 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/Desktop_Voxtalk_styles_chat_module_f4ba06ef.css",
+      "static/chunks/fdd9d_next_dist_ca937742._.js",
+      "static/chunks/Desktop_Voxtalk_app_layout_73c468bd.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_769990bd._.js",
+      "static/chunks/fdd9d_next_dist_compiled_react-dom_0a02c912._.js",
+      "static/chunks/fdd9d_next_dist_compiled_next-devtools_index_cb3a9fff.js",
+      "static/chunks/fdd9d_next_dist_compiled_97be4c31._.js",
+      "static/chunks/fdd9d_next_dist_client_7572dfa6._.js",
+      "static/chunks/fdd9d_next_dist_3a132a9c._.js",
+      "static/chunks/fdd9d_@swc_helpers_cjs_063e38df._.js",
+      "static/chunks/Desktop_Voxtalk_a0ff3932._.js",
+      "static/chunks/turbopack-Desktop_Voxtalk_7d66fd3c._.js"
+    ]
+  }
+}
