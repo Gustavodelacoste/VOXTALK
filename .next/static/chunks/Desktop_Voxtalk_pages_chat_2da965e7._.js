@@ -1,0 +1,18 @@
+(globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: [
+  "static/chunks/fdd9d_next_dist_compiled_next-devtools_index_b4c8891a.js",
+  "static/chunks/fdd9d_next_dist_compiled_ccd8269c._.js",
+  "static/chunks/fdd9d_next_dist_shared_lib_d280dae6._.js",
+  "static/chunks/fdd9d_next_dist_client_634fced2._.js",
+  "static/chunks/fdd9d_next_dist_6c678adb._.js",
+  "static/chunks/fdd9d_react-dom_a5d57c17._.js",
+  "static/chunks/node_modules_@firebase_auth_dist_esm_a0b02df4._.js",
+  "static/chunks/node_modules_@firebase_firestore_dist_index_esm_a1d87665.js",
+  "static/chunks/node_modules_@firebase_storage_dist_index_esm_c28a6df1.js",
+  "static/chunks/_a8c8a584._.js",
+  "static/chunks/[root-of-the-server]__d073590c._.js",
+  "static/chunks/Desktop_Voxtalk_styles_chat_module_7cc26016.css"
+],
+    source: "entry"
+});

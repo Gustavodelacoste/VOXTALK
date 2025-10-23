@@ -1,0 +1,140 @@
+/* [project]/Desktop/Voxtalk/styles/chat.module.css [client] (css) */
+.chat-module__S1DLKG__container {
+  background-color: var(--bg-color);
+  height: 100vh;
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.chat-module__S1DLKG__sidebar {
+  background-color: var(--sidebar-bg);
+  border-right: 1px solid #ccc;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  padding: 10px;
+  display: flex;
+}
+
+.chat-module__S1DLKG__user-profile {
+  align-items: center;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.chat-module__S1DLKG__user-profile img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.chat-module__S1DLKG__user-list {
+  padding: 0;
+  list-style: none;
+}
+
+.chat-module__S1DLKG__user-list li {
+  cursor: pointer;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  padding: 8px;
+}
+
+.chat-module__S1DLKG__user-list li.chat-module__S1DLKG__selected {
+  background-color: #eee;
+}
+
+.chat-module__S1DLKG__sidebar button {
+  cursor: pointer;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  padding: 8px;
+  transition: background .3s;
+}
+
+.chat-module__S1DLKG__sidebar button:hover {
+  background-color: #45a049;
+}
+
+.chat-module__S1DLKG__main {
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+}
+
+.chat-module__S1DLKG__messages {
+  border-bottom: 1px solid #ccc;
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.chat-module__S1DLKG__message {
+  border-radius: 10px;
+  max-width: 60%;
+  margin: 5px 0;
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.chat-module__S1DLKG__message.chat-module__S1DLKG__sent {
+  text-align: right;
+  background-color: #dcf8c6;
+  align-self: flex-end;
+}
+
+.chat-module__S1DLKG__message.chat-module__S1DLKG__received {
+  text-align: left;
+  background-color: #fff;
+  align-self: flex-start;
+}
+
+.chat-module__S1DLKG__input-container {
+  padding: 10px;
+  display: flex;
+}
+
+.chat-module__S1DLKG__input-container input {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  flex: 1;
+  margin-right: 5px;
+  padding: 8px;
+}
+
+.chat-module__S1DLKG__input-container button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  transition: background .3s;
+}
+
+.chat-module__S1DLKG__input-container button:hover {
+  background-color: #45a049;
+}
+
+.chat-module__S1DLKG__config-screen, .chat-module__S1DLKG__profile-screen, .chat-module__S1DLKG__voice-screen, .chat-module__S1DLKG__add-contact-screen {
+  padding: 20px;
+}
+
+:root {
+  --bg-color: #f2f2f2;
+  --text-color: #000;
+  --sidebar-bg: #fff;
+}
+
+.chat-module__S1DLKG__dark-theme {
+  --bg-color: #1c1c1c;
+  --text-color: #f2f2f2;
+  --sidebar-bg: #2c2c2c;
+}
+
+/*# sourceMappingURL=Desktop_Voxtalk_styles_chat_module_7cc26016.css.map*/

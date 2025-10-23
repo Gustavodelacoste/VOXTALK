@@ -1,0 +1,24 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/login": [
+      "static/chunks/fdd9d_next_dist_compiled_next-devtools_index_b4c8891a.js",
+      "static/chunks/fdd9d_next_dist_compiled_ccd8269c._.js",
+      "static/chunks/fdd9d_next_dist_shared_lib_d280dae6._.js",
+      "static/chunks/fdd9d_next_dist_client_634fced2._.js",
+      "static/chunks/fdd9d_next_dist_6c678adb._.js",
+      "static/chunks/fdd9d_react-dom_a5d57c17._.js",
+      "static/chunks/node_modules_@firebase_auth_dist_esm_a0b02df4._.js",
+      "static/chunks/node_modules_@firebase_firestore_dist_index_esm_a1d87665.js",
+      "static/chunks/_3fe2ad5e._.js",
+      "static/chunks/[root-of-the-server]__7660398e._.js",
+      "static/chunks/Desktop_Voxtalk_pages_login_2da965e7._.js",
+      "static/chunks/turbopack-Desktop_Voxtalk_pages_login_89340afd._.js"
+    ]
+  },
+  "ampFirstPages": []
+}

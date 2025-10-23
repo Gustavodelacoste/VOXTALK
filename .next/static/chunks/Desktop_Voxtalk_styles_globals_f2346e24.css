@@ -1,0 +1,146 @@
+/* [project]/Desktop/Voxtalk/styles/globals.css [app-client] (css) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+:root {
+  --bg-color: #f3f4f6;
+  --text-color: #111827;
+  --chat-bg: #fff;
+  --chat-sent: #dcf8c6;
+  --chat-received: #e5e5ea;
+}
+
+body.dark {
+  --bg-color: #1e1e2f;
+  --text-color: #e0e0e0;
+  --chat-bg: #2c2c3a;
+  --chat-sent: #056162;
+  --chat-received: #3a3a4c;
+}
+
+.chat-layout {
+  height: 100vh;
+  display: flex;
+}
+
+.sidebar {
+  background-color: var(--chat-bg);
+  border-right: 1px solid #ccc;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.user-list {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.user-item {
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.user-item:hover {
+  background-color: rgba(209, 213, 219, .2);
+}
+
+.user-item.active {
+  background-color: rgba(59, 130, 246, .2);
+}
+
+.add-user {
+  flex-direction: column;
+  margin-top: 10px;
+  display: flex;
+}
+
+.add-user input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  padding: 6px;
+}
+
+.chat-main {
+  background-color: var(--chat-bg);
+  flex-direction: column;
+  flex: 1;
+  padding: 10px;
+  display: flex;
+}
+
+.chat-header {
+  border-bottom: 1px solid #ccc;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.chat-box {
+  flex-direction: column;
+  flex: 1;
+  gap: 8px;
+  padding: 10px;
+  display: flex;
+  overflow-y: auto;
+}
+
+.message {
+  word-wrap: break-word;
+  border-radius: 20px;
+  max-width: 70%;
+  padding: 8px 12px;
+}
+
+.message.sent {
+  background-color: var(--chat-sent);
+  align-self: flex-end;
+}
+
+.message.received {
+  background-color: var(--chat-received);
+  align-self: flex-start;
+}
+
+.chat-input {
+  border-top: 1px solid #ccc;
+  gap: 8px;
+  padding-top: 10px;
+  display: flex;
+}
+
+.chat-input input {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  flex: 1;
+  padding: 8px;
+}
+
+.chat-input button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+}
+
+/*# sourceMappingURL=Desktop_Voxtalk_styles_globals_f2346e24.css.map*/
